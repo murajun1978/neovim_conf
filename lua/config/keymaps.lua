@@ -22,3 +22,6 @@ keymap.set("n", "sh", "<C-w>h")
 keymap.set("n", "sj", "<C-w>j")
 keymap.set("n", "sk", "<C-w>k")
 keymap.set("n", "sl", "<C-w>l")
+
+-- File exproler with NeoTree
+keymap.set("n", "<Leader>t", ":Neotree toggle<Return>")
