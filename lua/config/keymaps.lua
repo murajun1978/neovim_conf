@@ -25,3 +25,6 @@ keymap.set("n", "sl", "<C-w>l")
 
 -- File exproler with NeoTree
 keymap.set("n", "<Leader>t", ":Neotree toggle<Return>")
+
+-- Copilot chat
+keymap.set("n", "<Leader>cp", ":CopilotChatOpen<Return>")
